@@ -1,5 +1,3 @@
-# Infinite-loop-assignment-1
-
 #include <iostream>
 #include <sstream>
 #include <string>
@@ -14,6 +12,7 @@ bool isNumber(string s)
 
 int main()
 {
+	// declare and store user's name name, age and occupation
 	// changed age declaration to integer//
 	int choice = 0;
 	
@@ -21,8 +20,10 @@ int main()
 	int age = 0;
 	string occup = "";
 
+	//start the loop
 	while (choice != -1)
 	{
+		// declare the input
 		string input = "";
 		choice = 0;
 
