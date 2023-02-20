@@ -12,7 +12,7 @@ bool isNumber(string s)
 
 int main()
 {
-	// declare and store choice, user's name, age and occupation
+	// declare and store choice user's name, age and occupation
 	// changed age declaration to integer//
 	int choice = 0;
 	
@@ -36,9 +36,9 @@ int main()
 		//removed if statement from comments//
 			if (choice== -1)
 			break; 
-
+			//get the input//
 		getline(cin, input);
-		
+		// check if input is number//
 		if (isNumber(input));
 		switch (choice)
 		{
@@ -51,8 +51,8 @@ int main()
 			cout << "What is your Age? \n";
 			cin >> age;
 			break;
-		case 3:
-			cout << "What is your Occupation? \n";
+		case 3: 
+			cout << "What is your Occupation? \n"; 
 			getline (cin, occup);
 			break;
 		default:
@@ -61,7 +61,7 @@ int main()
 			continue;
 		}
 	}
-
+	// add 1 to the age//
 	age += 1;
 
 	cout << "Thank you for using our application, " << name << " and hope your career in " << occup << " is successful.";
