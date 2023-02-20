@@ -12,7 +12,7 @@ bool isNumber(string s)
 
 int main()
 {
-	// declare and store user's name name, age and occupation
+	// declare and store choice, user's name, age and occupation
 	// changed age declaration to integer//
 	int choice = 0;
 	
